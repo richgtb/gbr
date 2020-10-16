@@ -52,8 +52,8 @@ function genSampleCode() {
 	
 	// standard sample code
 	if (document.encryptedCode.codeType[0].checked) {
-		var code1 = "<div id=\"" + elementId + "\" title=\"" + encoded + "\">";
-		var code2 = "<a href=\"javascript:decryptText('" + elementId + "')\">Show encrypted text</a>";
+		var code1 = "<div id=\"bukaenkrip\" title=\"" + encoded + "\">";
+		var code2 = "<a href=\"javascript:decryptText('bukaenkrip')\">Click To Show PREMIUM Content Now</a><br /><span>See the password at the url above<br />that you got from main page.</span>";
 		var code3 = "</div>";
 		
 		document.encryptedCode.text.value = code1 + "\n\t" + code2 + "\n" + code3;
